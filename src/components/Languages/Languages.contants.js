@@ -1,0 +1,17 @@
+export const SKILLS = [
+    "ReactJS",
+    "Golang",
+    "NodeJS",
+    "Git",
+    "Javascript",
+    "Docker",
+    "C/C++",
+    "Java",
+    "Verilog",
+    "VHDL",
+    "Springboot",
+    "Python",
+    "Redux",
+    "HLS",
+    "H264/H265",
+]

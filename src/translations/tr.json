@@ -1,0 +1,20 @@
+{
+  "hello": "merhaba",
+  "english": "English",
+  "turkish": "Türkçe",
+  "langs.english": "Ingilizce",
+  "langs.turkish": "Türkçe",
+  "workExp": "Is Deneyimi",
+  "profSummary": "Kariyer Ozeti",
+  "education": "Egitim",
+  "skills": "Yetenekler",
+  "languages": "Diller",
+  "awards": "Basarilar ve Yarismalar",
+  "lights.off": "Gece",
+  "lights.on": "Gunduz",
+  "download": "CV Indir",
+  "workStatus.fullTime": "Tam Zamanli",
+  "workStatus.intern": "Stajyer",
+  "workTitle.software.engineer": "Yazilim Muhendisi",
+  "workTitle.hardware.engineer": "Donanim Muhendisi"
+}

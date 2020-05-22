@@ -1,0 +1,21 @@
+{
+  "hello": "hi",
+  "english": "English",
+  "turkish": "Türkçe",
+  "langs.english": "English",
+  "langs.turkish": "Turkish",
+  "workExp": "Work Experience",
+  "profSummary": "Professional Summary",
+  "education": "Education",
+  "skills": "Skills",
+  "languages": "Languages",
+  "awards": "Awards and Competitions",
+  "lights.off": "Dark",
+  "lights.on": "Light",
+  "download": "Download CV",
+  "workStatus.fullTime": "Full Time",
+  "workStatus.intern": "Intern",
+  "workTitle.software.engineer": "Software Engineer",
+  "workTitle.hardware.engineer": "Hardware Engineer"
+
+}
