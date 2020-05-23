@@ -2,14 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 import Header from "@furkanyilmazx/components/Header";
+import Footer from "@furkanyilmazx/components/Footer";
 import media from "@furkanyilmazx/helpers/media";
 
 function DefaultLayout({ children, loading, ...restProps }) {
   return (
-    <LayoutContainer {...restProps}>
-      <StyledHeader />
-      {children}
-    </LayoutContainer>
+    <>
+      <LayoutContainer {...restProps}>
+        <StyledHeader />
+        {children}
+      </LayoutContainer>
+      <Footer />
+    </>
   );
 }
 

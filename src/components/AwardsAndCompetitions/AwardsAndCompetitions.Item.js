@@ -10,12 +10,7 @@ import {
 } from "@furkanyilmazx/assets/icons";
 import media from "@furkanyilmazx/helpers/media";
 
-function AwardsAndCompetitionsItem({
-  name,
-  place,
-  location,
-  date,
-}) {
+function AwardsAndCompetitionsItem({ name, place, location, date }) {
   return (
     <Wrapper>
       <Title>{name}</Title>
@@ -55,10 +50,14 @@ const SecondLine = styled.div`
   margin-top: 10px;
 `;
 
-const LeftContet = styled.div``;
+const LeftContet = styled.div`
+  ${media.sm`
+    min-width: 100%;
+  `}
+`;
 
 const Title = styled.div`
   font-size: 18px;
-  color: ${props => props.theme.primaryColor};
+  color: ${(props) => props.theme.primaryColor};
   font-weight: 600;
 `;
