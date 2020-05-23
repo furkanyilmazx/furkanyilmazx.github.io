@@ -51,6 +51,14 @@ function WorkExperience() {
         workStatus="workStatus.intern"
         workingDate="Jul 01, 2015 - Apr 10, 2016"
       />
+      <StyledDivider />
+      <WorkExperienceItem
+        workTitle="workTitle.game.developer"
+        company="Etkasoft"
+        location="Izmit, TR"
+        workStatus="workStatus.intern"
+        workingDate="Jul 04, 2014 - Aug 27, 2014"
+      />
       <Divider />
     </Wrapper>
   );

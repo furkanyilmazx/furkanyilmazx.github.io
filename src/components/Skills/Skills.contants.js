@@ -14,4 +14,6 @@ export const SKILLS = [
     "Redux",
     "HLS",
     "H264/H265",
+    "Unit3D",
+    "3dsMax",
 ]
