@@ -12,7 +12,9 @@ import {
   InstagramIcon,
 } from "@furkanyilmazx/assets/icons";
 import Divider from "@furkanyilmazx/components/Divider";
+import { GA_CATEGORIES, GA_ACTIONS } from "@furkanyilmazx/constants/analytics";
 
+import sendEvent from "@furkanyilmazx/helpers/analytics";
 import media from "@furkanyilmazx/helpers/media";
 
 import ResumePdfFile from "@furkanyilmazx/assets/pdfs/resume-pdf.pdf";
@@ -38,20 +40,39 @@ function ProfileCard() {
         </ProfileUserStatusItem>
         <Divider />
       </ProfileUserStatusContainer>
-      <DownloadButton href={ResumePdfFile} target="_blank">
+      <DownloadButton
+        href={ResumePdfFile}
+        target="_blank"
+        onClick={() => sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.DOWNLOAD_CV)}
+      >
         {t("download")}
       </DownloadButton>
       <SocialIconsWrapper>
-        <SocialIcon target="_blank" href="https://github.com/furkanyilmazx">
+        <SocialIcon
+          target="_blank"
+          onClick={() =>
+            sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.GITHUB_LINK)
+          }
+          href="https://github.com/furkanyilmazx"
+        >
           <GithubIcon />
         </SocialIcon>
         <SocialIcon
           target="_blank"
+          onClick={() =>
+            sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.LINKEDIN_LINK)
+          }
           href="https://www.linkedin.com/in/furkanyilmazx/"
         >
           <LinkedinIcon />
         </SocialIcon>
-        <SocialIcon target="_blank" href="https://www.instagram.com/furkanyx">
+        <SocialIcon
+          target="_blank"
+          onClick={() =>
+            sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.INSTAGRAM_LINK)
+          }
+          href="https://www.instagram.com/furkanyx"
+        >
           <InstagramIcon />
         </SocialIcon>
       </SocialIconsWrapper>
@@ -94,7 +115,6 @@ const ProfileName = styled.div`
   ${media.sm`
     font-size: 32px;
   `}
-
 `;
 
 const ProfileUserTitle = styled.div`

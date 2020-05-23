@@ -5,7 +5,9 @@ import styled from "styled-components";
 import { GBFlag, TRFlag } from "@furkanyilmazx/assets/images";
 import { ThemeReactContext } from "@furkanyilmazx/contexts/ThemeContext";
 import { LOCALE_TR, LOCALE_EN } from "@furkanyilmazx/constants/i18n";
+import { GA_CATEGORIES, GA_ACTIONS } from "@furkanyilmazx/constants/analytics";
 
+import sendEvent from "@furkanyilmazx/helpers/analytics";
 import media from "@furkanyilmazx/helpers/media";
 
 function Header(props) {
@@ -15,6 +17,7 @@ function Header(props) {
   const { flag: Flag, language } = getCurrentFlagAndLanguageName();
 
   function switchLanguage() {
+    sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.LANGUAGE_SWITCH, i18n.language);
     i18n.changeLanguage(i18n.language === LOCALE_TR ? LOCALE_EN : LOCALE_TR);
   }
   function switchTheme() {
