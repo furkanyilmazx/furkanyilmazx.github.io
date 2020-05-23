@@ -3,12 +3,16 @@ export const BREAK_POINTS = {
   small: "768px",
   medium: "900px",
   large: "1200px",
-  xlarge: "1800px"
+  xlarge: "1800px",
 };
 
 export const DEVICE_SIZE = {
-  SMALL: 'small',
-  MEDIUM: 'medium',
-  LARGE: 'large',
-  X_LARGE: 'xlarge'
-}
+  SMALL: "small",
+  MEDIUM: "medium",
+  LARGE: "large",
+  X_LARGE: "xlarge",
+};
+
+export const LOCAL_STORAGE_KEYS = {
+  THEME_KEY: "thm",
+};
