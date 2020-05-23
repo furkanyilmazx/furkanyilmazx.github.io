@@ -11,7 +11,7 @@ function Education() {
     <Wrapper>
       <Title textId="education" />
       <EducationItem
-        graduateLevel="Bachelor's degree"
+        graduateLevel="education.level.bachelor"
         department="Electronics and Communication Engineering Dept"
         university="Kocaeli University"
         location="Izmit, TR"

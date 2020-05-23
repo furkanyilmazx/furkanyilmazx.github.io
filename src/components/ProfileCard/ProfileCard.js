@@ -11,6 +11,9 @@ import {
   LinkedinIcon,
   InstagramIcon,
 } from "@furkanyilmazx/assets/icons";
+import Divider from "@furkanyilmazx/components/Divider";
+
+import media from "@furkanyilmazx/helpers/media";
 
 import ResumePdfFile from "@furkanyilmazx/assets/pdfs/resume-pdf.pdf";
 
@@ -35,7 +38,9 @@ function ProfileCard() {
         </ProfileUserStatusItem>
         <Divider />
       </ProfileUserStatusContainer>
-      <DownloadButton href={ResumePdfFile} target="_blank">{t("download")}</DownloadButton>
+      <DownloadButton href={ResumePdfFile} target="_blank">
+        {t("download")}
+      </DownloadButton>
       <SocialIconsWrapper>
         <SocialIcon target="_blank" href="https://github.com/furkanyilmazx">
           <GithubIcon />
@@ -62,10 +67,18 @@ const ProfileCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  ${media.sm`
+    max-width: none;
+    width: 100%;
+  `}
 `;
 
 const ProfileCardImage = styled.img`
   border-radius: 50%;
+  ${media.sm`
+    width: 114px;
+  `}
 `;
 
 const ProfileName = styled.div`
@@ -73,19 +86,28 @@ const ProfileName = styled.div`
   max-width: 141px;
   text-align: center;
   color: ${(props) => props.theme.primaryColor};
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 800;
   line-height: 1.2;
   margin-top: 20px;
+
+  ${media.sm`
+    font-size: 32px;
+  `}
+
 `;
 
 const ProfileUserTitle = styled.div`
   width: 100%;
   text-align: center;
   color: ${(props) => props.theme.primaryColor};
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   margin-top: 10px;
+
+  ${media.sm`
+    font-size: 18px;
+  `}
 `;
 
 const ProfileUserStatusContainer = styled.div`
@@ -104,12 +126,6 @@ const ProfileUserStatusItem = styled.div`
   font-size: 14px;
   font-weight: 700;
   color: ${(props) => props.theme.primaryColor};
-`;
-
-const Divider = styled.div`
-  height: 0.5px;
-  background-color: #e9e9e9;
-  width: 100%;
 `;
 
 const DownloadButton = styled.a`

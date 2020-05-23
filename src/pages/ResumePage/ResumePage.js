@@ -10,6 +10,8 @@ import Languages from "@furkanyilmazx/components/Languages";
 import AwardsAndCompetitions from "@furkanyilmazx/components/AwardsAndCompetitions";
 import DefaultLayout from "@furkanyilmazx/layouts/DefaultLayout";
 
+import media from "@furkanyilmazx/helpers/media";
+
 function ResumePage({ name }) {
   return (
     <DefaultLayout>
@@ -32,10 +34,15 @@ export default ResumePage;
 
 const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 const RightContent = styled.div`
   margin-left: 20px;
   padding: 20px;
   flex: 1;
+
+  ${media.sm`
+    margin-left: 0;
+  `}
 `;

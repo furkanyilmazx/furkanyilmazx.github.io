@@ -11,7 +11,6 @@ function ThemeContext({ children }) {
   const [isDay, setDay] = useState(true);
 
   function toogleTheme() {
-    console.log(theme);
     setDay(!isDay);
     setTheme(!isDay ? lightTheme : darkTheme);
     setTitle(!isDay ? "lights.on" : "lights.off");

@@ -10,6 +10,9 @@ const lightTheme = {
   progressbarBgColor: "#E9E9E9",
   progressbarFgColor: "rgba(48, 73, 171, 0.8)",
   downloadButtonBgColor: "linear-gradient(90deg,rgba(59, 148, 223, 1) 0%,rgba(117, 171, 217, 1) 100%)",
+  scrollBarBgColor: "#FAFAFA",
+  scrollBarThumbBgColor: "#D5D5D5",
+  scrollBarThumbHoverBgColor: "#c5c5c5",
 };
 
 export default lightTheme;

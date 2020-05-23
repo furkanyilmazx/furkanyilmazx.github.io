@@ -10,6 +10,7 @@ import {
   LocationIcon,
   DateIcon,
 } from "@furkanyilmazx/assets/icons";
+import media from "@furkanyilmazx/helpers/media";
 
 function WorkExperienceItem({
   workTitle,
@@ -49,6 +50,10 @@ const Wrapper = styled.div`
 
 const StyledIconedText = styled(IconedText)`
   margin-left: 15px;
+  ${media.sm`
+    margin-left: 0;
+    min-width: 100%;
+  `}
 `;
 
 const FirstLine = styled.div`
@@ -62,16 +67,21 @@ const SecondLine = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  flex-wrap: wrap;
 `;
 
-const LeftContet = styled.div``;
+const LeftContet = styled.div`
+  ${media.sm`
+    min-width: 100%;
+  `}
+`;
 
 const WorkTitle = styled.div`
   font-size: 18px;
-  color: ${props => props.theme.primaryColor};
+  color: ${(props) => props.theme.primaryColor};
   font-weight: 600;
 `;
 
 const StyledPill = styled(Pill)`
-  background-color: ${props => props.theme.workPillBgColor};
+  background-color: ${(props) => props.theme.workPillBgColor};
 `;

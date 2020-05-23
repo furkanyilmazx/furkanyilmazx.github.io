@@ -59,24 +59,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   -moz-osx-font-smoothing: grayscale;
-
   overflow-y: scroll;
+
+
+  ::-webkit-scrollbar {
+    background: ${props => props.theme.scrollBarBgColor};
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: ${props => props.theme.scrollBarThumbBgColor};
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${props => props.theme.scrollBarThumbHoverBgColor};
+  }
 }
 
-body::-webkit-scrollbar {
-  background: #f3f5f6;
-  width: 10px;
-}
-body::-webkit-scrollbar-thumb {
-  background: #d5d5d5;
-}
 
-body::-webkit-scrollbar-thumb:hover {
-  background: #c5c5c5;
-}
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
 }
 
 input,

@@ -10,6 +10,9 @@ const darkTheme = {
   progressbarBgColor: "#282828",
   progressbarFgColor: "rgba(194, 194, 194, 0.8)",
   downloadButtonBgColor: "linear-gradient(90deg, #00AFFF 0%, #4AC7FF 100%)",
+  scrollBarBgColor: "#121212",
+  scrollBarThumbBgColor: "#282828",
+  scrollBarThumbHoverBgColor: "#494848",
 };
 
 export default darkTheme;

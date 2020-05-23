@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 
 import IconedText from "@furkanyilmazx/components/IconedText";
 
@@ -9,6 +10,7 @@ import {
   DateIcon,
   EducationIcon,
 } from "@furkanyilmazx/assets/icons";
+import media from "@furkanyilmazx/helpers/media";
 
 function EducationItem({
   graduateLevel,
@@ -17,9 +19,10 @@ function EducationItem({
   location,
   graduateDate,
 }) {
+  const { t } = useTranslation();
   return (
     <Wrapper>
-      <WorkTitle>{graduateLevel}</WorkTitle>
+      <GraduateLevel>{t(graduateLevel)}</GraduateLevel>
       <FirstLine>
         <IconedText icon={EducationIcon} textId={department} />
       </FirstLine>
@@ -41,6 +44,10 @@ const Wrapper = styled.div`
 `;
 const StyledIconedText = styled(IconedText)`
   margin-left: 15px;
+  ${media.sm`
+    margin-left: 0;
+    min-width: 100%;
+  `}
 `;
 
 const FirstLine = styled.div`
@@ -51,11 +58,16 @@ const SecondLine = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 `;
 
-const LeftContet = styled.div``;
+const LeftContet = styled.div`
+  ${media.sm`
+    min-width: 100%;
+  `}
+`;
 
-const WorkTitle = styled.div`
+const GraduateLevel = styled.div`
   font-size: 18px;
   color: ${(props) => props.theme.primaryColor};
   font-weight: 600;

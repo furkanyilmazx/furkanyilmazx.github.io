@@ -8,6 +8,7 @@ import {
   LocationIcon,
   DateIcon,
 } from "@furkanyilmazx/assets/icons";
+import media from "@furkanyilmazx/helpers/media";
 
 function AwardsAndCompetitionsItem({
   name,
@@ -37,12 +38,17 @@ const Wrapper = styled.div`
 
 const StyledIconedText = styled(IconedText)`
   margin-left: 15px;
+  ${media.sm`
+    margin-left: 0;
+    min-width: 100%;
+  `}
 `;
 
 const SecondLine = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 10px;
 `;
 

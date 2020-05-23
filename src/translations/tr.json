@@ -16,5 +16,6 @@
   "workStatus.fullTime": "Tam Zamanli",
   "workStatus.intern": "Stajyer",
   "workTitle.software.engineer": "Yazilim Muhendisi",
-  "workTitle.hardware.engineer": "Donanim Muhendisi"
+  "workTitle.hardware.engineer": "Donanim Muhendisi",
+  "education.level.bachelor": "Lisans Egitimi"
 }

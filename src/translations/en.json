@@ -10,12 +10,13 @@
   "skills": "Skills",
   "languages": "Languages",
   "awards": "Awards and Competitions",
-  "lights.off": "Dark",
-  "lights.on": "Light",
+  "lights.off": "Night",
+  "lights.on": "Day",
   "download": "Download CV",
   "workStatus.fullTime": "Full Time",
   "workStatus.intern": "Intern",
   "workTitle.software.engineer": "Software Engineer",
-  "workTitle.hardware.engineer": "Hardware Engineer"
+  "workTitle.hardware.engineer": "Hardware Engineer",
+  "education.level.bachelor": "Bachelor's degree"
 
 }

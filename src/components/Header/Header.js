@@ -8,11 +8,9 @@ import { LOCALE_TR, LOCALE_EN } from "@furkanyilmazx/constants/i18n";
 
 import media from "@furkanyilmazx/helpers/media";
 
-function Header({ name }) {
+function Header(props) {
   const { t, i18n } = useTranslation();
   const [toogleTheme, title] = useContext(ThemeReactContext);
-
-  console.log(title);
 
   const { flag: Flag, language } = getCurrentFlagAndLanguageName();
 
@@ -38,7 +36,7 @@ function Header({ name }) {
   }
 
   return (
-    <Container>
+    <Container {...props}>
       <ThemeSwitch onClick={switchTheme}>
         <ThemeIcon className={title === "lights.on" ? "sun" : "moon"}>
           <ThemeIconCresent
