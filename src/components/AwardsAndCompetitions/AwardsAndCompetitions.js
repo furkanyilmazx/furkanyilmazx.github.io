@@ -17,6 +17,7 @@ function AwardsAndCompetitions() {
         place="Marmara University"
         location="Istanbul, TR"
         date="April 17, 2016"
+        peopleCount="Luckyfin Team"
       />
       <StyledDivider />
       <AwardsAndCompetitionsItem
@@ -24,6 +25,7 @@ function AwardsAndCompetitions() {
         place="NASA’s Johnson Space Center"
         location="Houston, TX"
         date="June 23, 2016"
+        peopleCount="Luckyfin Team"
       />
       <StyledDivider />
       <AwardsAndCompetitionsItem
@@ -31,6 +33,7 @@ function AwardsAndCompetitions() {
         place="Huawei RnD"
         location="Istanbul, TR"
         date="Sep 3, 2018"
+        peopleCount="awards.individual"
       />
       <Divider />
     </Wrapper>

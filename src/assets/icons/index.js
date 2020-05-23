@@ -8,3 +8,4 @@ export { ReactComponent as LinkedinIcon } from "./linkedin-icon.svg";
 export { ReactComponent as LocationIcon } from "./location-icon.svg";
 export { ReactComponent as WorkIcon } from "./work-icon.svg";
 export { ReactComponent as WorldIcon } from "./world-icon.svg";
+export { ReactComponent as GroupIcon } from "./group-icon.svg";

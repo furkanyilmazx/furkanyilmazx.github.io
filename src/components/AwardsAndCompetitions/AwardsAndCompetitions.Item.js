@@ -7,10 +7,11 @@ import {
   BusinessIcon,
   LocationIcon,
   DateIcon,
+  GroupIcon,
 } from "@furkanyilmazx/assets/icons";
 import media from "@furkanyilmazx/helpers/media";
 
-function AwardsAndCompetitionsItem({ name, place, location, date }) {
+function AwardsAndCompetitionsItem({ name, place, location, date, peopleCount }) {
   return (
     <Wrapper>
       <Title>{name}</Title>
@@ -18,6 +19,7 @@ function AwardsAndCompetitionsItem({ name, place, location, date }) {
         <LeftContet>
           <IconedText icon={BusinessIcon} textId={place} />
           <StyledIconedText icon={LocationIcon} textId={location} />
+          <StyledIconedText icon={GroupIcon} textId={peopleCount} />
         </LeftContet>
         <IconedText icon={DateIcon} textId={date} />
       </SecondLine>
