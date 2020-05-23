@@ -41,7 +41,11 @@ export default EducationItem;
 
 const Wrapper = styled.div`
   margin-bottom: 30px;
+  ${media.sm`
+    margin-bottom: 20px;
+  `}
 `;
+
 const StyledIconedText = styled(IconedText)`
   margin-left: 15px;
   ${media.sm`

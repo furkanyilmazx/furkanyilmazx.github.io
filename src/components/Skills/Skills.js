@@ -3,8 +3,9 @@ import styled from "styled-components";
 
 import Title from "@furkanyilmazx/components/Title";
 import Divider from "@furkanyilmazx/components/Divider";
-
 import Pill from "@furkanyilmazx/components/Pill";
+
+import media from "@furkanyilmazx/helpers/media";
 
 import { SKILLS } from "./Skills.contants";
 
@@ -31,6 +32,10 @@ const Wrapper = styled.div`
 const StyledDivider = styled(Divider)`
   margin-bottom: 30px;
   margin-top: 20px;
+  
+  ${media.sm`
+    margin-bottom: 20px;
+  `}
 `;
 
 const StyledPill = styled(Pill)`

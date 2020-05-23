@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Title from "@furkanyilmazx/components/Title";
 import Divider from "@furkanyilmazx/components/Divider";
 
+import media from "@furkanyilmazx/helpers/media";
+
 import AwardsAndCompetitionsItem from "./AwardsAndCompetitions.Item";
 
 function AwardsAndCompetitions() {
@@ -23,6 +25,13 @@ function AwardsAndCompetitions() {
         location="Houston, TX"
         date="June 23, 2016"
       />
+      <StyledDivider />
+      <AwardsAndCompetitionsItem
+        name="Future Star, Huawei"
+        place="Huawei RnD"
+        location="Istanbul, TR"
+        date="Sep 3, 2018"
+      />
       <Divider />
     </Wrapper>
   );
@@ -36,4 +45,7 @@ const Wrapper = styled.div`
 
 const StyledDivider = styled(Divider)`
   margin-bottom: 30px;
+  ${media.sm`
+    margin-bottom: 20px;
+  `}
 `;

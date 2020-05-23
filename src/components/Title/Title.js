@@ -16,7 +16,4 @@ const Wrapper = styled.div`
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 20px;
-  ${media.sm`
-    margin-bottom: 10px;
-  `}
 `;

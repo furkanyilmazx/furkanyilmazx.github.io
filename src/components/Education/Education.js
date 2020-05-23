@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Title from "@furkanyilmazx/components/Title";
 import Divider from "@furkanyilmazx/components/Divider";
 
+import media from "@furkanyilmazx/helpers/media";
+
 import EducationItem from "./Education.Item";
 
 function Education() {
@@ -30,4 +32,7 @@ const Wrapper = styled.div`
 
 const StyledDivider = styled(Divider)`
   margin-bottom: 30px;
+  ${media.sm`
+    margin-bottom: 20px;
+  `}
 `;
