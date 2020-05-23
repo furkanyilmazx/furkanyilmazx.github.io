@@ -1,5 +1,6 @@
 {
   "name": "furkanyilmazx.github.io",
+  "homepage": "https://furkanyilmazx.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +21,8 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "eject": "react-app-rewired eject",
+    "deploy": "yarn run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "react-app-rewired": "^2.1.5"
   }
 }
