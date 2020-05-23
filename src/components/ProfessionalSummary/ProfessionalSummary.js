@@ -10,19 +10,7 @@ function ProfessionalSummary({ name }) {
       <Title textId="profSummary" />
       <Text
         align="justify"
-        textId="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis mauris
-        consequat nibh euismod suspendisse nunc netus dapibus. Pellentesque dui
-        urna, ullamcorper tempus convallis. Aliquet tellus integer faucibus elit
-        blandit consectetur ac. Parturient fermentum leo maecenas lorem orci
-        natoque sed. Auctor placerat lectus pretium dignissim ac quam. Lectus
-        ornare sit ullamcorper quam amet. Neque feugiat malesuada euismod
-        sodales scelerisque habitant cras aliquet tellus. Quam rutrum velit nisl
-        tincidunt. Ut dictumst tincidunt sollicitudin pellentesque aliquam
-        faucibus nisl morbi gravida. Mattis iaculis molestie morbi elementum mi.
-        Fermentum, magnis nisi, placerat netus aliquet id varius est. Bibendum
-        sagittis senectus molestie euismod eget. Consectetur nisl, tempus
-        pellentesque fermentum sit neque blandit dui sed. Tempor orci,
-        consequat, sit ultricies. Id dolor."
+        textId="profSummary.letter"
       />
     </Wrapper>
   );
