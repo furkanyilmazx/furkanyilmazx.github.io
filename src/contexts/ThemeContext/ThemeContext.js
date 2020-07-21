@@ -15,7 +15,7 @@ export const ThemeReactContext = React.createContext();
 
 function ThemeContext({ children }) {
   const isLightModeInit =
-    localStorage.getItem(LOCAL_STORAGE_KEYS.THEME_KEY) === "light";
+    localStorage.getItem(LOCAL_STORAGE_KEYS.THEME_KEY) !== "dark";
   const [theme, setTheme] = useState(isLightModeInit ? lightTheme : darkTheme);
   const [title, setTitle] = useState(
     isLightModeInit ? "lights.on" : "lights.off"

@@ -12,7 +12,7 @@ function Languages() {
       <Title textId="languages" />
       <LanguagesItem  language="langs.turkish" languagleLevel="Native" progress="100%" />
       <StyledDivider />
-      <LanguagesItem  language="langs.english" languagleLevel="Intermediate High" progress="80%" />
+      <LanguagesItem  language="langs.english" languagleLevel="Intermediate High" progress="85%" />
       <Divider />
     </Wrapper>
   );

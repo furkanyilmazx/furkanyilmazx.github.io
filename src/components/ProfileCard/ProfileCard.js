@@ -9,7 +9,7 @@ import {
   WorkIcon,
   GithubIcon,
   LinkedinIcon,
-  InstagramIcon,
+  DribbbleIcon,
 } from "@furkanyilmazx/assets/icons";
 import Divider from "@furkanyilmazx/components/Divider";
 import { GA_CATEGORIES, GA_ACTIONS } from "@furkanyilmazx/constants/analytics";
@@ -71,9 +71,9 @@ function ProfileCard() {
           onClick={() =>
             sendEvent(GA_CATEGORIES.BUTTON, GA_ACTIONS.INSTAGRAM_LINK)
           }
-          href="https://www.instagram.com/furkanyx"
+          href="https://dribbble.com/furkanyilmazx"
         >
-          <InstagramIcon />
+          <DribbbleIcon />
         </SocialIcon>
       </SocialIconsWrapper>
     </ProfileCardWrapper>
@@ -166,7 +166,14 @@ const SocialIconsWrapper = styled.div`
 
 const SocialIcon = styled.a`
   margin-left: 20px;
+  &:first-child {
+    margin-left: 0;
+  }
+
   svg {
+    height: 24px;
+    width: 24px;
+
     path {
       fill: ${(props) => props.theme.iconColor};
     }

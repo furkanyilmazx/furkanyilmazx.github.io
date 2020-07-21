@@ -112,6 +112,12 @@ const ThemeIconCresent = styled.div`
 
 const ThemeTitle = styled.span`
   margin-left: 28px;
+  font-size: 14px;
+  font-weight: 700;
+  
+  ${media.sm`
+    font-size: 12px;
+  `}
 `;
 
 const LanguageSwitch = styled.a`
@@ -123,13 +129,13 @@ const LanguageSwitch = styled.a`
 
 const LanguageWrapper = styled.span`
   margin-left: 4px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 700;
   line-height: 1.56;
   color: ${(props) => props.theme.primaryColor};
   user-select: none;
 
   ${media.sm`
-    font-size: 14px;
+    font-size: 12px;
   `}
 `;
