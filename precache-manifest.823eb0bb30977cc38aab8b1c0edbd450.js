@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ebb4be6ffe03cf1b0afea43e8dbf216",
+    "revision": "a6439a45d4e4f9d4852e405a0939756b",
     "url": "/index.html"
   },
   {
-    "revision": "ffb2e8aedc0f01278751",
+    "revision": "416b6e7b44cf6df5ee00",
     "url": "/static/css/main.4358ed27.chunk.css"
   },
   {
@@ -16,24 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27f73eef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40d3a9076e2fcbaaf1d3",
-    "url": "/static/js/3.52232c93.chunk.js"
+    "revision": "d3218b9b375a331a2475",
+    "url": "/static/js/3.858a2619.chunk.js"
   },
   {
-    "revision": "ffb2e8aedc0f01278751",
-    "url": "/static/js/main.970126e0.chunk.js"
+    "revision": "416b6e7b44cf6df5ee00",
+    "url": "/static/js/main.882dc1c7.chunk.js"
   },
   {
-    "revision": "99bfac685735a8121982",
-    "url": "/static/js/runtime-main.4c51632d.js"
+    "revision": "7eeae076220ffd997068",
+    "url": "/static/js/runtime-main.0d85c834.js"
   },
   {
     "revision": "ef15ca4fa041856dcbdd59b58d759218",
     "url": "/static/media/GB-Flag.ef15ca4f.svg"
   },
   {
-    "revision": "843aee6df87ac40bff4f68a227632c8d",
-    "url": "/static/media/ProfileImage.843aee6d.png"
+    "revision": "117745cc81c9c893a23436015841fab0",
+    "url": "/static/media/ProfileImage.117745cc.png"
   },
   {
     "revision": "2fdd0ca3fc5af7b420b111ec47c8b58d",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/instagram-icon.88c1d1d0.svg"
   },
   {
+    "revision": "515015f1f669170bc1e9f3dcf26e4e75",
+    "url": "/static/media/launch-icon.515015f1.svg"
+  },
+  {
     "revision": "1cc0e12d16a1a82651f12cb1712d06d6",
     "url": "/static/media/linkedin-icon.1cc0e12d.svg"
   },
@@ -80,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/location-icon.e0b2dfb5.svg"
   },
   {
-    "revision": "d62d9db5632bc9552c9026e91e65def5",
-    "url": "/static/media/resume-pdf.d62d9db5.pdf"
+    "revision": "bad7a003c8e17e6d26df389262389924",
+    "url": "/static/media/resume-pdf.bad7a003.pdf"
   },
   {
     "revision": "9c01b83a6e9c90725eeecbb371360d19",
