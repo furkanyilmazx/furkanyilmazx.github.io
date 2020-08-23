@@ -10,3 +10,7 @@ export { ReactComponent as WorkIcon } from "./work-icon.svg";
 export { ReactComponent as WorldIcon } from "./world-icon.svg";
 export { ReactComponent as GroupIcon } from "./group-icon.svg";
 export { ReactComponent as DribbbleIcon } from "./dribble.svg";
+export { ReactComponent as LaunchIcon } from "./launch-icon.svg";
+export {default as GithubRepoIcon } from './GithubRepoIcon'
+export {default as GithubStarIcon } from './GithubStarIcon'
+export {default as GithubForkIcon } from './GithubForkIcon'

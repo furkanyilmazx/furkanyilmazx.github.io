@@ -97,6 +97,8 @@ const ProfileCardWrapper = styled.div`
 
 const ProfileCardImage = styled.img`
   border-radius: 50%;
+  width: 132px;
+
   ${media.sm`
     width: 114px;
   `}
