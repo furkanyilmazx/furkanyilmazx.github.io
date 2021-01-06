@@ -14,10 +14,19 @@ function WorkExperience() {
       <Title textId="workExp" />
       <WorkExperienceItem
         workTitle="workTitle.software.engineer"
+        company="wamo.io"
+        location="London, UK"
+        workStatus="workStatus.fullTime"
+        workingDate="November 09, 2020 -"
+        workDescription="Working on fintech mobile app and websites with TypeScript, React, React Native, Gatsby, Netlify Serverless Functions"
+      />
+      <StyledDivider />
+      <WorkExperienceItem
+        workTitle="workTitle.software.engineer"
         company="iyzico"
         location="Istanbul, TR"
         workStatus="workStatus.fullTime"
-        workingDate="April 08, 2019 - present"
+        workingDate="April 08, 2019 - November 06, 2020"
         workDescription="I am using so many technologies, tools and programming languages such as Javascript, NodeJS, ExpressJS, ReactJS, Redux/Saga, React Native, Styled Components, GraphQL, MongoDB, Java, Springboot. I am working frontend focused."
       />
       <StyledDivider />
